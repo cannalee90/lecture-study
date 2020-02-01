@@ -10,8 +10,6 @@ const type = (value, type) => {
   return value;
 }
 
-
-
 const ViewModel = class {
   static #private = Symbol();
   static get(data) {
